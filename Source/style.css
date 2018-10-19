@@ -1,0 +1,84 @@
+body {
+  font-family: sans-serif;
+}
+
+.background {
+  background-image: url("Img/bgd.jpg");
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.backdrop {
+  background-color: #3f689c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+}
+
+.login-form-container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 400px;
+  max-height: 320px;
+  width: 100%;
+  height: 100%;
+  padding: 30px 0px 30px 0px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.login-input {
+
+}
+
+.input-container {
+  padding: 5px 0px 5px 0px;
+  margin: 10px
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid rgb(120, 120, 120);
+  padding: 10px;
+}
+
+.button-container {
+  padding: 5px 0px 5px 0px;
+}
+
+.button {
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(245, 245, 245);
+  padding: 12px 32px;
+  width: 50%;
+}
+
+#login {
+  background-color: rgb(92, 142, 255);
+  color: white;
+  font-weight: bold;
+}
+
+#register {
+
+}
+
+.login-form-header {
+  align-text: center;
+}
