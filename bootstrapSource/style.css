@@ -1,0 +1,76 @@
+body, html {
+  height: 100%;
+  background-color: #AAA;
+}
+
+.card.match {
+  background-color: transparent;
+  border: none;
+}
+
+.card.profile {
+  margin: 4%;
+}
+
+.nav {
+  line-height: 50px;
+   border-right: 1px solid white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: silver;
+}
+
+.nav-item:active {
+  text-decoration: underline;
+}
+
+.card-columns {
+  column-count: 1;
+}
+
+.img-thumbnail {
+  border: none;
+  background-color: transparent;
+}
+
+.profile-image-container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.img-profile {
+  border-radius: 50%;
+  max-width: 18rem;
+  margin: 2%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.add-profile-pic {
+  position: absolute;
+  top: 80%;
+  left: 65%;
+  background: transparent;
+  background-image: url("./icons/ic_add_a_photo_24px.svg");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 5%;
+  height: 10%;
+  border: none;
+  cursor: pointer;
+}
+
+.username {
+}
+
+.upload-meme-container {
+  margin: 5%;
+}
